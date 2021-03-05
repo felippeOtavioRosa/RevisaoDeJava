@@ -1,0 +1,21 @@
+package calculadora;
+
+public class Calculadora {
+    public static void main(String[] args) {
+        //args recebe os argumentos passados na linha de comando
+        int n1 = Integer.parseInt(args[0]); // converte string para inteiro
+        int n2 = Integer.parseInt(args[1]);
+
+        System.out.println("Soma: "+ (n1+n2));
+        System.out.println("Produto: "+ (n1*n2));
+        System.out.println("Diferença: "+ (n1-n2));
+        System.out.println("Divisão :"+ (n1/n2));
+
+        if (n1>n2)
+            System.out.println(n1+" é maior");
+        else if (n2>n1)
+            System.out.println(n2+" é maior");
+        else
+            System.out.println("Os números são iguais");
+    }
+}
