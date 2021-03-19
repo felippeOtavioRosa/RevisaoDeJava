@@ -30,16 +30,19 @@ public class PontoMovel implements Movel{
 
     @Override
     public void moverParaBaixo() {
+
         y-=velY;
     }
 
     @Override
     public void moverParaEsquerda() {
+
         x-=velX;
     }
 
     @Override
     public void moverParaDireita() {
+
         x+=velX;
     }
 }
