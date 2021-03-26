@@ -32,4 +32,6 @@ public class Fatura {
     public double totalFaturado () {
         return price * qtd;
     }
+
+
 }
